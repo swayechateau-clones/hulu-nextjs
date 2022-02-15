@@ -7,3 +7,26 @@
         @apply bg-[#06202A] text-gray-300
     }
 }
+
+@layer utilities {
+    .scrollbar::-webkit-scrollbar {
+      width: .5rem;
+      height: .5rem;
+      margin: 1rem;
+    }
+  
+    .scrollbar::-webkit-scrollbar-track {
+      border-radius: 100vh;
+      background: rgba(0, 0, 0, 0.1);
+    }
+  
+    .scrollbar::-webkit-scrollbar-thumb {
+      background: #111;
+      border-radius: 100vh;
+      border: 2px solid transparent;
+    }
+  
+    .scrollbar::-webkit-scrollbar-thumb:hover {
+      background: #e1e1e1;
+    }
+  }
