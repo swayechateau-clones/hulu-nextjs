@@ -19,5 +19,7 @@ const Thumbnail = forwardRef(({result}, ref) => {
     </div>
   )
 })
+// arrow functions needs a display name
+Thumbnail.displayName = 'Thumbnail';
 
 export default Thumbnail
