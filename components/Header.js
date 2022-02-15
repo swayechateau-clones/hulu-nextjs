@@ -20,7 +20,7 @@ const Header = () => {
         <HeaderItem title="Search" Icon={SearchIcon} />
         <HeaderItem title="Account" Icon={UserIcon} />
       </div>
-      <Image className='object-contain' src="https://file.swayechateau.com/view/clonesdETKUyECuiY3eyzohPi630" width={200} height={100}/>
+      <Image alt="Hulu Clone Logo" className='object-contain' src="https://file.swayechateau.com/view/clonesdETKUyECuiY3eyzohPi630" width={200} height={100}/>
     </header>
   )
 }
